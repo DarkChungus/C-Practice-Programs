@@ -18,9 +18,9 @@ int factorial(int n){
 
 int main(){
 	int userInput;
-	printf("\nEnter the number you want to see the factorial of: ");
+	printf("Enter the number you want to see the factorial of: ");
 	fflush(stdout);
-	scanf("%d", userInput);
+	scanf("%d", &userInput);
 	printf("The factorial of the number is %d.", factorial(userInput));
 	return 0;
 }
